@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get 'users/new'
+
   get 'user/new'
   resources :users
   root  'static_pages#home'
